@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="smoke testing(failed)">
+    <classes>
+      <class name="BookCart">
+        <methods>
+          <include name="add" invocation-numbers="16 5 7 8 9 14"/>
+          <include name="delete" invocation-numbers="5 7 8 14"/>
+        </methods>
+      </class> <!-- BookCart -->
+    </classes>
+  </test> <!-- smoke testing(failed) -->
+</suite> <!-- Failed suite [Smoke test] -->
